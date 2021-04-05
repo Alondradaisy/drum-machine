@@ -15,3 +15,6 @@ function setupUpdate() {
 
 // Call setupUpdate() once after 300ms
 setTimeout(setupUpdate, 300);
+
+const checkbox = document.querySelector("#metronome").checked = true;
+console.log(checkbox.checked);
