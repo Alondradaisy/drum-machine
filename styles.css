@@ -72,8 +72,23 @@ body {
 }
 .user-inputs {
     margin: 15px;
+    border-style: groove;
+    border-color: #f2cc8f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 15px;
 }
 .counter {
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
     margin: 30px;
+}
+.input-types {
+    border-style: groove;
+    border-color: #f2cc8f;
+    padding: 25px;
+
+}
+label {
+    font-size: 20px;
 }
