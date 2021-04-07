@@ -24,6 +24,21 @@ function updateTock() {
     tock.play();
 } 
 
+const kickDrum = new Audio('sounds/kick-drum.mp3');
+function updateKickDrum() {
+    tick.play()
+}
+
+const snareDrum = new Audio('sounds/snare-drum.mp3');
+function updateSnareDrum() {
+    snareDrum.play();
+}
+
+const hiHat = new Audio('sounds/hi-hat.mp3');
+function updateHiHat() {
+    hiHat.play();
+}
+
 let counter = 0;
 
 const checkbox = document.querySelector("#metronome").checked = true;
