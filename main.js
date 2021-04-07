@@ -35,6 +35,18 @@ function count () {
     counting.innerHTML = counter;
     if(counter < 4) {
         counter++;
-    } else (counter === 1)
+    } else (counter = 1)
     
 }
+
+//const metro = document.getElementById('metronome');
+//const kickDrum = document.getElementById('kick-drum');
+//const snareDrum = document.getElementById('snare-drum');
+//const hiHat = document.getElementById('hi-hat');
+
+//const input_metronome = document.getElementById('metronome');
+//const input_kickDrum = document.getElementById('kick-drum');
+//const input_snareDrum = document.getElementById('snare-drum');
+//const hiHat = document.getElementById('hi-hat');
+
+
